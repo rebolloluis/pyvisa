@@ -92,7 +92,7 @@ Getting the instrument configuration right
 
 For most instruments, you actually need to properly configure the instrument
 so that it understands the message sent by the computer (in particular how to
-identifies the end of the commands) and so that computer knows when the
+identifiy the end of the commands) and so that the computer knows when the
 instrument is done talking. If you don't you are likely to see a |VisaIOError|
 reporting a timeout.
 
